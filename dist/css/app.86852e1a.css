@@ -1,0 +1,41 @@
+.square {
+  background-color: #00f;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 10px;
+}
+.circle,
+.square {
+  width: 80px;
+  height: 80px;
+}
+.circle {
+  border-radius: 50%;
+  background-color: #000;
+}
+.redCircle {
+  background-color: red;
+}
+.yellowCircle {
+  background-color: #ff0;
+}
+.sliderCanvas {
+  background-color: #00f;
+}
+h2 {
+  font-size: 32px;
+}
+h1,
+h2 {
+  font-family: Kufam, cursive;
+}
+.token {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  text-align: center;
+  font-family: arial;
+  font-size: 250%;
+}
