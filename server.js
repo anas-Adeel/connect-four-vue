@@ -1,3 +1,7 @@
+console.log("HELLO WORLD PLS READ ME")
+console.log("THIS IS THE FIRST ANDSECOND LINES OF CODE IN THE NPM SCRIPT")
+
+
 const express = require("express");
 const serveStatic = require("serve-static");
 const path = require("path");
