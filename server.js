@@ -1,16 +1,16 @@
-console.log("HELLO WORLD PLS READ ME")
-console.log("THIS IS THE FIRST ANDSECOND LINES OF CODE IN THE NPM SCRIPT")
+// console.log("HELLO WORLD PLS READ ME")
+// console.log("THIS IS THE FIRST ANDSECOND LINES OF CODE IN THE NPM SCRIPT")
 
 
-const express = require("express");
-const serveStatic = require("serve-static");
-const path = require("path");
+// const express = require("express");
+// const serveStatic = require("serve-static");
+// const path = require("path");
 
-const app = express();
+// const app = express();
 
-app.use("/", serveStatic(path.join(__dirname, "./dist")));
+// app.use("/", serveStatic(path.join(__dirname, "./dist")));
 
-const port = process.env.PORT || 8080;
-app.listen(port);
+// const port = process.env.PORT || 8080;
+// app.listen(port);
 
-console.log(`Listening on port : ${port}`);
+// console.log(`Listening on port : ${port}`);
